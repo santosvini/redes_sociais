@@ -20,14 +20,14 @@ body {
 
 main {
   position: relative;
-  height: 99.5vh;
+  height: 100vh;
 }
 
 #telefone {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 619px;
+  height: 617px;
   width: 316px;
   background: url('../img/frame-iphone.png') no-repeat;
   transform: translate(-50%, -50%);
@@ -39,4 +39,27 @@ main {
   left: 22px;
   width: 269px;
   height: 472px;
+}
+
+#redes-sociais {
+  margin-right: 12px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+#redes-sociais img {
+  width: 50px;
+  margin: 4px;
+  border-radius: 50%;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.400);
+  box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+  border: 2px solid gray;
+  transform: translate(-15%, -15%);
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.600);
+  transition: transform .4s, border .2s;
 }
