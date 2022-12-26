@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(145deg, #eee, #333 40%, #000) no-repeat top center;
+  background: linear-gradient(-145deg, #eee, #333 70%, #000) no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -63,7 +63,7 @@ main {
 }
 
 #redes-sociais img:hover {
-  border: 1px solid black;
+  border: 2px solid #eee;
   transform: translate(15%, -15%);
   box-shadow: 4px 8px rgba(0, 0, 0, 0.600);
   transition: transform .2s, border .1s;
